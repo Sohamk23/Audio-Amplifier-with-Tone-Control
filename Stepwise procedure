@@ -1,0 +1,24 @@
+1.Amplification Stage:
+Connect Pin 1 of the first LM386 to the input source.
+Set the gain using resistors between Pin 1 and Pin 8 of the first LM386
+
+2.Bass Control:
+Connect Pin 2 of the first LM386 to a bass control potentiometer.
+Use an RC filter between Pin 2 and Pin 5 to control the bass frequency.
+
+3.Treble Control:
+Connect Pin 2 of the second LM386 to a treble control potentiometer.
+Use an RC filter between Pin 2 and Pin 5 to control the treble frequency.
+
+4.Output Stage:
+Connect Pin 5 of the second LM386 to the positive terminal of the speaker.
+Connect Pin 4 of both LM386 ICs to the negative terminal of the speaker.
+
+5.Power Supply:
+Connect Pin 6 of both LM386 ICs to the positive side of the power supply.
+Connect Pin 3 of both ICs to the ground of the power supply.
+
+6.Testing:
+Connect the input source and power up the circuit.
+Adjust the potentiometers to control bass and treble.
+Verify the amplified audio output through the speaker.
