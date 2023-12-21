@@ -1,0 +1,10 @@
+LM386 Op-Amp: 
+LM386 is a versatile and widely used audio amplifier IC. It operates with a low supply voltage, making it suitable for battery-powered applications
+
+Amplification Circuit:
+Connect Pin 2 of the LM386 to the input audio signal.
+Use a resistor network to set the gain according to your requirements.
+
+Tone Control:
+Use the first LM386 for bass control and the second for treble control.
+Implement a simple RC filter network for each tone control. Adjusting the potentiometers will alter the cut-off frequencies, thereby controlling the bass and treble.
